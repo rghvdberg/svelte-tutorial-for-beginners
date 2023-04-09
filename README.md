@@ -10,7 +10,11 @@
   npm run dev
 ```
 
-- [ ] 3 - Svelte Basics
+- [x] 3 - Svelte Basics
+
+ * variables/data/logic in the `<script></script>` section
+ * `{var}` calls the vars/logic
+
 - [ ] 4 - User Input & Data Binding
 - [ ] 5 - Reactive Values
 - [ ] 6 - Loops
