@@ -46,7 +46,8 @@
       <-- do something -->
     {/each}
     ```
-- [ ] 7 - Inline Event Handlers
+- [x] 7 - Inline Event Handlers
+  - `<button on:click={() => handleClick(person.id)}> delete </button>`
 - [ ] 8 - Conditionals
 - [ ] 9 - Components
 - [ ] 10 - CSS & Conditional Styles
