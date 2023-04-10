@@ -38,7 +38,14 @@
       }
       ```
 
-- [ ] 6 - Loops
+- [x] 6 - Loops
+  - ```sveltejs
+    {#each myArray as myObject (myObject.id)}
+      {myObject.myProperty}
+      {:else}
+      <-- do something -->
+    {/each}
+    ```
 - [ ] 7 - Inline Event Handlers
 - [ ] 8 - Conditionals
 - [ ] 9 - Components
