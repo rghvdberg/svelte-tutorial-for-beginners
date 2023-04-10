@@ -12,10 +12,17 @@
 
 - [x] 3 - Svelte Basics
 
- * variables/data/logic in the `<script></script>` section
- * `{var}` calls the vars/logic
+* variables/data/logic in the `<script></script>` section
+* `{var}` calls the vars/logic
 
-- [ ] 4 - User Input & Data Binding
+- [x] 4 - User Input & Data Binding
+
+* one way data binding
+  - `<input type="text" on:input={handleInput}`
+  - `<input type="text" value={beltColour} />`
+* two way data binding
+  - `<input type="text" bind:value={beltColour} />`
+
 - [ ] 5 - Reactive Values
 - [ ] 6 - Loops
 - [ ] 7 - Inline Event Handlers
