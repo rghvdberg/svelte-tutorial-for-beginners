@@ -58,7 +58,12 @@
       // fallback
     {/if}
     ```
-- [ ] 9 - Components
+- [x] 9 - Components
+
+  - create `NewComponent.svelte`
+  - `import NewComponent from "./NewComponent.svelte";`
+  - `<NewComponent />`
+
 - [ ] 10 - CSS & Conditional Styles
 - [ ] 11 - Props
 - [ ] 12 - Event Forwarding
