@@ -23,7 +23,7 @@
 * two way data binding
   - `<input type="text" bind:value={beltColour} />`
 
-- [ ] 5 - Reactive Values
+- [x] 5 - Reactive Values
 
 * reactive value
   - `$: fullName = `${firstName} ${lastName}`;`
