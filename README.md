@@ -48,7 +48,16 @@
     ```
 - [x] 7 - Inline Event Handlers
   - `<button on:click={() => handleClick(person.id)}> delete </button>`
-- [ ] 8 - Conditionals
+- [x] 8 - Conditionals
+  - ```sveltejs
+    {#if condition}
+      // do stuff
+      {:else if condition}
+      // do other stuff
+      {:else}
+      // fallback
+    {/if}
+    ```
 - [ ] 9 - Components
 - [ ] 10 - CSS & Conditional Styles
 - [ ] 11 - Props
