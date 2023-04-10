@@ -1,4 +1,4 @@
-# [The Net Ninjas - Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
+# [The Net Ninja's - Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
 
 - [x] 1 - Introduction
 - [x] 2 - Setting up a Svelte App
