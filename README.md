@@ -24,6 +24,20 @@
   - `<input type="text" bind:value={beltColour} />`
 
 - [ ] 5 - Reactive Values
+
+* reactive value
+  - `$: fullName = `${firstName} ${lastName}`;`
+* reactive statement
+  - single line
+    - `$: console.log(beltColour);`
+  - code block
+    - ```javascipt
+      $: {
+        console.log(beltColour);
+        console.log(fullName); // reacive name!!
+      }
+      ```
+
 - [ ] 6 - Loops
 - [ ] 7 - Inline Event Handlers
 - [ ] 8 - Conditionals

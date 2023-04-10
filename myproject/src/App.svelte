@@ -1,7 +1,15 @@
 <script>
   // data/variables/logic are declared here
-  let name = "Yoshi";
+  let firstName = "Jimi";
+  let lastName = "Hendrix";
   let beltColour = "black";
+
+  $: fullName = `${firstName} ${lastName}`;
+  // $: console.log(beltColour);
+  $: {
+    console.log(beltColour);
+    console.log(fullName);
+  }
 
   const handleClick = () => {
     beltColour = "orange";
@@ -13,16 +21,10 @@
 </script>
 
 <main>
-  <!-- refer to vars and functions with single curly braces  -->
-  <h1>Hello {name}!</h1>
-  <p style="color:{beltColour}">{beltColour} belt 🥷</p>
-  <button on:click={handleClick}>update belt colour</button>
-  <!-- one way data binding 
-  <input type="text" on:input={handleInput} 
-  <input type="text" value={beltColour} /> 
-  -->
-
+  <p>{fullName} - {beltColour} belt</p>
   <!-- two way data binding -->
+  <input type="text" bind:value={firstName} />
+  <input type="text" bind:value={lastName} />
   <input type="text" bind:value={beltColour} />
 </main>
 
