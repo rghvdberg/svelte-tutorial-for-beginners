@@ -64,7 +64,10 @@
   - `import NewComponent from "./NewComponent.svelte";`
   - `<NewComponent />`
 
-- [ ] 10 - CSS & Conditional Styles
+- [x] 10 - CSS & Conditional Styles
+  - global css in `/public/global.css`
+  - component css in myComponent.svelte -> `<style> </style>`
+  - conditional css `class:myCondition={bool}`
 - [ ] 11 - Props
 - [ ] 12 - Event Forwarding
 - [ ] 13 - Event Modifiers
