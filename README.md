@@ -59,11 +59,9 @@
     {/if}
     ```
 - [x] 9 - Components
-
   - create `NewComponent.svelte`
   - `import NewComponent from "./NewComponent.svelte";`
   - `<NewComponent />`
-
 - [x] 10 - CSS & Conditional Styles
   - global css in `/public/global.css`
   - component css in myComponent.svelte -> `<style> </style>`
