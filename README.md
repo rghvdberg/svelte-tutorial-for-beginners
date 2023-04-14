@@ -66,7 +66,12 @@
   - global css in `/public/global.css`
   - component css in myComponent.svelte -> `<style> </style>`
   - conditional css `class:myCondition={bool}`
-- [ ] 11 - Props
+- [x] 11 - Props
+  - prop variables in component
+    - `<myComponent propValue="value"/>`
+  - in Components script
+    - `export let propValue;`
+    - usage: `{propValue}`
 - [ ] 12 - Event Forwarding
 - [ ] 13 - Event Modifiers
 - [ ] 14 - Slots
