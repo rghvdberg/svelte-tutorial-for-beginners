@@ -15,7 +15,14 @@
   };
 </script>
 
-<Modal message="Hey I am a prop value" {showModal} on:click={toggleModal} />
+<Modal {showModal} on:click={toggleModal}>
+  <h3>Add a New Person</h3>
+  <form>
+    <input type="text" placeholder="name" />
+    <input type="text" placeholder="belt colour" />
+    <button>Add Person</button>
+  </form>
+</Modal>
 <main>
   <button on:click|once={toggleModal}>Open Modal</button>
   {#each people as person (person.id)}
@@ -36,7 +43,7 @@
   main {
     text-align: center;
     padding: 1em;
-    max-width: 240px;
+    max-width: 600px;
     margin: 0 auto;
   }
 

@@ -85,9 +85,18 @@
     remove the handler after the first time it runs  
     ![once](./images/13-event-modifiers-once.png)
   - https://svelte.dev/docs#template-syntax-element-directives-on-eventname
-- [ ] 14 - Slots
+- [x] 14 - Slots
+  - Unnamed Slots
+    - in App.svelte
+      - `<myComponent> <!-- content here --> </myComponent>`
+    - in myComponent.svelte
+      - content is rendered at `<slot/>`
+  - Named Slots
+    - in App.svelte
+      - `<div slot="myNamedSlot"> <!-- content here --> </div>`
+      - content is rendered at `<div name="myNamedSlot"/>`
 - [ ] 15 - Forms (part 1)
-- [ ] 16 - forms (part 2)
+- [ ] 16 - Forms (part 2)
 - [ ] 17 - Dispatching Custom Events
 - [ ] 18 - Starting the Polls Project
 - [ ] 19 - Header & Footer Components
