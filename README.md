@@ -101,7 +101,9 @@
       - if `type` is `number` the variable will be a number
     - `preventDefault` prevents the form reloading the page
       - `<form on:submit|preventDefault={myFunction}>`
-- [ ] 16 - Forms (part 2)
+- [x] 16 - Forms (part 2)
+  - `bind:group={myArray}` add value to `myArray[]`
+  - `<select bind:value={var}>` bind value of `<option>` to `var`
 - [ ] 17 - Dispatching Custom Events
 - [ ] 18 - Starting the Polls Project
 - [ ] 19 - Header & Footer Components
