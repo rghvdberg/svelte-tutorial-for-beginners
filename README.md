@@ -72,8 +72,18 @@
   - in Components script
     - `export let propValue;`
     - usage: `{propValue}`
-- [ ] 12 - Event Forwarding
-- [ ] 13 - Event Modifiers
+- [x] 12 - Event Forwarding
+  - `on:click` in component (no function calling)
+  - ![component](./images/12-event-forwarding-component.png)
+  - in `<myComponent on:click={myFunction}>`
+  - ![app](./images/12-event-forwarding-app.png)
+- [x] 13 - Event Modifiers  
+      https://svelte.dev/docs#template-syntax-element-directives-on-eventname - `self`  
+       only trigger handler if `event.target` is the element itself  
+       ![self](./images/13-event-modifiers-self.png)
+  - `once`
+  - remove the handler after the first time it runs  
+    ![once](./images/13-event-modifiers-once.png)
 - [ ] 14 - Slots
 - [ ] 15 - Forms (part 1)
 - [ ] 16 - forms (part 2)
