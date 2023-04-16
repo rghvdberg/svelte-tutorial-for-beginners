@@ -95,7 +95,12 @@
     - in App.svelte
       - `<div slot="myNamedSlot"> <!-- content here --> </div>`
       - content is rendered at `<div name="myNamedSlot"/>`
-- [ ] 15 - Forms (part 1)
+- [x] 15 - Forms (part 1)
+  - bind variables to input elements
+    - `<input type="text" bind:value={myVar} />`
+      - if `type` is `number` the variable will be a number
+    - `preventDefault` prevents the form reloading the page
+      - `<form on:submit|preventDefault={myFunction}>`
 - [ ] 16 - Forms (part 2)
 - [ ] 17 - Dispatching Custom Events
 - [ ] 18 - Starting the Polls Project
