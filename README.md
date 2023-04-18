@@ -115,8 +115,8 @@
 
 ---
 
-- [ ] 18 - Starting the Polls Project
-- [ ] 19 - Header & Footer Components
+- [x] 18 - Starting the Polls Project
+- [x] 19 - Header & Footer Components
 - [ ] 20 - Reusable Tabs Component
 - [ ] 21 - Poll Form Component
 - [ ] 22 - Custom Button Component
