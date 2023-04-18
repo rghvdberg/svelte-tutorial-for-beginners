@@ -104,7 +104,17 @@
 - [x] 16 - Forms (part 2)
   - `bind:group={myArray}` add value to `myArray[]`
   - `<select bind:value={var}>` bind value of `<option>` to `var`
-- [ ] 17 - Dispatching Custom Events
+- [x] 17 - Dispatching Custom Events
+  - in `myComponent`
+    - `import { createEventDispatcher } from "svelte";`
+    - `<form on:submit|preventDefault={handleSubmit}>`
+    - in `handleSumbit` => `dispatch("customEventName", myObject)`
+  - in `App`
+    - `<myComponent on:customEventName={myFunction}/>`
+    - `const myFunction = (e) => { // do stuff };`
+
+---
+
 - [ ] 18 - Starting the Polls Project
 - [ ] 19 - Header & Footer Components
 - [ ] 20 - Reusable Tabs Component
