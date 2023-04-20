@@ -1,4 +1,3 @@
-<!-- <!- @ 9:35 https://youtu.be/U8cM_jhmDxA?t=575  -->
 <script>
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
@@ -6,11 +5,19 @@
   import Tabs from "./components/shared/Tabs.svelte";
   let items = ["Current Polls", "Add New Poll"];
   let activeItem = "Current Polls";
+  const tabChange = (e) => {
+    activeItem = e.detail;
+  };
 </script>
 
 <Header />
 <main>
-  <Tabs {items} {activeItem} />
+  <Tabs {activeItem} {items} on:tabChange={tabChange} />
+  {#if activeItem === "Current Polls"}
+    <p>Polls list component goes here</p>
+  {:else if activeItem === "Add New Poll"}
+    <p>Add New Poll component goes here</p>
+  {/if}
 </main>
 <Footer />
 

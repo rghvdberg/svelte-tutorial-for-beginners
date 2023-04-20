@@ -1,5 +1,7 @@
 <!-- @ 9:35 https://youtu.be/U8cM_jhmDxA?t=575 -->
 <script>
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
   export let items;
   export let activeItem;
 </script>
@@ -8,7 +10,8 @@
   <!-- content -->
   <ul>
     {#each items as item}
-      <li>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <li on:click={() => dispatch("tabChange", item)}>
         <div class:active={item === activeItem}>{item}</div>
       </li>
     {/each}
