@@ -119,7 +119,7 @@
   - ![Project](./images/project.svg)
 - [x] 19 - Header & Footer Components
 - [x] 20 - Reusable Tabs Component
-- [ ] 21 - Poll Form Component
+- [x] 21 - Poll Form Component
 - [ ] 22 - Custom Button Component
 - [ ] 23 - Custom Form Validation
 - [ ] 24 - Adding New Polls
