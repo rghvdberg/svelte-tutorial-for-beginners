@@ -120,7 +120,7 @@
 - [x] 19 - Header & Footer Components
 - [x] 20 - Reusable Tabs Component
 - [x] 21 - Poll Form Component
-- [ ] 22 - Custom Button Component
+- [x] 22 - Custom Button Component
 - [ ] 23 - Custom Form Validation
 - [ ] 24 - Adding New Polls
 - [ ] 25 - Poll Details Component
