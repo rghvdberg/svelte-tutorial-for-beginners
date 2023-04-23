@@ -116,8 +116,9 @@
 ---
 
 - [x] 18 - Starting the Polls Project
+  - ![Project](./images/project.svg)
 - [x] 19 - Header & Footer Components
-- [ ] 20 - Reusable Tabs Component
+- [x] 20 - Reusable Tabs Component
 - [ ] 21 - Poll Form Component
 - [ ] 22 - Custom Button Component
 - [ ] 23 - Custom Form Validation
