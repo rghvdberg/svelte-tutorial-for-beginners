@@ -5,8 +5,45 @@
     answerA: "",
     answerB: "",
   };
+
+  let errors = {
+    question: "",
+    answerA: "",
+    answerB: "",
+  };
+  let valid = false;
+
   const submitHandler = () => {
-    console.log(fields);
+    valid = true;
+
+    // validate question
+    if (fields.question.trim().length < 5) {
+      valid = false;
+      errors.question = "Question must be at least 5 characters long";
+    } else {
+      errors.question = "";
+    }
+
+    // validate answeri A
+    if (fields.answerA.trim().length < 1) {
+      valid = false;
+      errors.answerA = "Answer A cannot be empty";
+    } else {
+      errors.answerA = "";
+    }
+
+    // validate answer B
+    if (fields.answerB.trim().length < 1) {
+      valid = false;
+      errors.answerB = "Answer B cannot be empty";
+    } else {
+      errors.answerB = "";
+    }
+
+    // add new Poll
+    if (valid) {
+      console.log("valid", fields);
+    }
   };
 </script>
 
@@ -14,14 +51,17 @@
   <div class="form-field">
     <label for="question">Poll Question:</label>
     <input type="text" id="question" bind:value={fields.question} />
+    <div class="error">{errors.question}</div>
   </div>
   <div class="form-field">
     <label for="answer-a">Answer A:</label>
     <input type="text" id="answer-a" bind:value={fields.answerA} />
+    <div class="error">{errors.answerA}</div>
   </div>
   <div class="form-field">
     <label for="answer-b">Answer B:</label>
     <input type="text" id="answer-b" bind:value={fields.answerB} />
+    <div class="error">{errors.answerB}</div>
   </div>
   <Button type="secondary" flat={true} inverse={false}>Add Poll</Button>
 </form>
@@ -43,5 +83,10 @@
     margin: 10px auto;
     text-align: left;
     color: #8a8a8a;
+  }
+  .error {
+    font-weight: bold;
+    font-size: 14px;
+    color: #d91b42;
   }
 </style>
