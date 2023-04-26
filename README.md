@@ -123,7 +123,7 @@
 - [x] 22 - Custom Button Component
 - [x] 23 - Custom Form Validation
 - [x] 24 - Adding New Polls
-- [ ] 25 - Poll Details Component
+- [x] 25 - Poll Details Component
 - [ ] 26 - Card Component
 - [ ] 27 - Casting Votes
 - [ ] 28 - Vote Bars
