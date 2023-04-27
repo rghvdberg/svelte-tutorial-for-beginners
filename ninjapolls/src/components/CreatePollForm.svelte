@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher } from "svelte";
-  import Button from "./shared/Button.svelte";
+  import Button from "../shared/Button.svelte";
 
   let dispatch = createEventDispatcher();
 
