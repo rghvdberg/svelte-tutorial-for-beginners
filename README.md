@@ -126,7 +126,7 @@
 - [x] 25 - Poll Details Component
 - [x] 26 - Card Component
 - [x] 27 - Casting Votes
-- [ ] 28 - Vote Bars
+- [x] 28 - Vote Bars
 - [ ] 29 - Introduction to Stores
 - [ ] 30 - Lifecycle Hooks
 - [ ] 31 - Updating Store Data
