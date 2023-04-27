@@ -130,7 +130,7 @@
 - [x] 29 - Introduction to Stores
   - create store
     - `import { writable } from "svelte/store";`
-      subscribe to store
+  - subscribe to store
     - `import Pollstore from "./Pollstore.js";`
     - `PollStore.subscribe(myFunction);`
 - [ ] 30 - Lifecycle Hooks
