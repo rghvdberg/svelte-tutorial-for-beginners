@@ -125,7 +125,7 @@
 - [x] 24 - Adding New Polls
 - [x] 25 - Poll Details Component
 - [x] 26 - Card Component
-- [ ] 27 - Casting Votes
+- [x] 27 - Casting Votes
 - [ ] 28 - Vote Bars
 - [ ] 29 - Introduction to Stores
 - [ ] 30 - Lifecycle Hooks
