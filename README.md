@@ -127,7 +127,12 @@
 - [x] 26 - Card Component
 - [x] 27 - Casting Votes
 - [x] 28 - Vote Bars
-- [ ] 29 - Introduction to Stores
+- [x] 29 - Introduction to Stores
+  - create store
+    - `import { writable } from "svelte/store";`
+      subscribe to store
+    - `import Pollstore from "./Pollstore.js";`
+    - `PollStore.subscribe(myFunction);`
 - [ ] 30 - Lifecycle Hooks
 - [ ] 31 - Updating Store Data
 - [ ] 32 - Deleting Polls
