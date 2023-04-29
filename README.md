@@ -137,7 +137,7 @@
   - A. `import { onMount, onDestroy } from "svelte";`
     - `onMount(() => {});` / `onDestroy(() => {});`
   - B. use `$PollStore`
-- [ ] 31 - Updating Store Data
+- [x] 31 - Updating Store Data
 - [ ] 32 - Deleting Polls
 - [ ] 33 - Transition Basics
 - [ ] 34 - Tweens & Animations
