@@ -140,6 +140,6 @@
 - [x] 31 - Updating Store Data
 - [x] 32 - Deleting Polls
   - note: Button **component** needs `on:click`
-- [ ] 33 - Transition Basics
+- [x] 34 - Transition Basics
 - [ ] 34 - Tweens & Animations
 - [ ] 35 - Wrap Up
