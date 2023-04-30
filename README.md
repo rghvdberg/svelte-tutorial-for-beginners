@@ -141,5 +141,5 @@
 - [x] 32 - Deleting Polls
   - note: Button **component** needs `on:click`
 - [x] 34 - Transition Basics
-- [ ] 34 - Tweens & Animations
+- [x] 34 - Tweens & Animations
 - [ ] 35 - Wrap Up
