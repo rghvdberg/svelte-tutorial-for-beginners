@@ -142,4 +142,6 @@
   - note: Button **component** needs `on:click`
 - [x] 34 - Transition Basics
 - [x] 34 - Tweens & Animations
-- [ ] 35 - Wrap Up
+- [x] 35 - Wrap Up
+  - https://svelte.dev/tutorial/basics
+  - https://svelte.dev/docs
