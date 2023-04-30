@@ -24,7 +24,7 @@
     });
   };
   // deleteing a poll
-  const deletePoll = (id) => {
+  const handleDelete = (id) => {
     PollStore.update((currentPolls) => {
       return currentPolls.filter((poll) => poll.id != id);
     });
@@ -46,7 +46,7 @@
       <span>{poll.answerB} ({poll.votesB})</span>
     </div>
     <div class="delete">
-      <Button flat={true} on:click={() => deletePoll(poll.id)}>Delete</Button>
+      <Button flat={true} on:click={() => handleDelete(poll.id)}>Delete</Button>
     </div>
   </div>
 </Card>
